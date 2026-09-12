@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Landing page pribadi Muhammad Ridho Reyhan, mahasiswa Ilmu Komputer.">
+    <meta property="og:title" content="Muhammad Ridho Reyhan — Landing Page">
+    <meta property="og:description" content="Landing page pribadi Muhammad Ridho Reyhan, mahasiswa Ilmu Komputer.">
+    <meta property="og:type" content="website">
+    <link rel="stylesheet" href="./style.css">
+    <title>Landing Page — Muhammad Ridho Reyhan</title>
+</head>
+<body>
+    <header class="site-header" id="home">
+        <h1 class="site-header-title">Muhammad Ridho Reyhan</h1>
+        <p class="site-header-subtitle">Mahasiswa Ilmu Komputer</p>
+        <nav class="nav">
+            <ul class="nav-list">
+                <li class="nav-item"><a class="nav-link" href="#home">Utama</a></li>
+                <li class="nav-item"><a class="nav-link" href="#tentang-saya">Tentang Saya</a></li>
+                <li class="nav-item"><a class="nav-link" href="#progress">Progress</a></li>
+                <li class="nav-item"><a class="nav-link" href="#proyek">Proyek</a></li>
+                <li class="nav-item"><a class="nav-link" href="#saran">Saran</a></li>
+                <li class="nav-item"><a class="nav-link" href="#kontak">Kontak</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="main">
+        <article class="profile">
+            <section class="section" id="tentang-saya">
+                <h2 class="section-title">Tentang Saya</h2>
+                <p class="section-text">
+                    Saya merupakan seorang mahasiswa semester 3 prodi ilmu komputer yang saat ini sedang mempelajari banyak hal yang terkait dengan ilmu komputer. tetapi saat ini saya sedang membuat sebuah landing page untuk memenuhi tugas rutin dari dosen pengampu mata kuliah pemrograman web
+                </p>
+            </section>
+            <section class="section" id="progress">
+                <h2 class="section-title">Progress</h2>
+                <p class="section-text">
+                    Ada beberapa hal yang sedang saya pelajari dalam perkuliahan ini.
+                </p>
+                <ul class="section-list">
+                    <li class="section-list-item">Html, Css, JavaScript, Laravel</li>
+                    <li class="section-list-item">Database Management System</li>
+                    <li class="section-list-item">Computer Architecture</li>
+                    <li class="section-list-item">Math</li>
+                </ul>
+            </section>
+            <section class="section" id="proyek">
+                <h2 class="section-title">Proyek</h2>
+                <p class="section-text">
+                    Adapun proyek yang pernah saya kerjakan walaupun ini merupakan submission dari dicoding
+                </p>
+                <h3 class="project-name">Aplikasi Submission Dicoding</h3>
+                <figure class="project">
+                    <img class="project-image" src="image/proyek.png" alt="Tampilan antarmuka proyek submission Dicoding">
+                    <figcaption class="project-caption">
+                        Tampilan salah satu proyek yang pernah saya kerjakan
+                    </figcaption>
+                </figure>
+            </section>
+            <section class="section" id="saran">
+                <h2 class="section-title">Saran</h2>
+                <form class="contact-form">
+                    <label class="contact-form-label" for="nama">Nama</label>
+                    <input class="contact-form-input" type="text" id="nama" name="nama" required>
+                    <label class="contact-form-label" for="email">Email</label>
+                    <input class="contact-form-input" type="email" id="email" name="email" required>
+                    <label class="contact-form-label" for="pesan">Pesan</label>
+                    <textarea class="contact-form-input" id="pesan" name="pesan" required></textarea>
+                    <button class="contact-form-submit" type="submit">Kirim Pesan</button>
+                </form>
+            </section>
+        </article>
+    </main>
+    <aside class="sidebar" id="kontak">
+        <h2 class="sidebar-title">Kontak</h2>
+        <ul class="sidebar-list">
+            <li class="sidebar-item">Email: rimure1111@gmail.com</li>
+            <li class="sidebar-item">Github: <a href="https://github.com/muhammadridho7707">muhammadridho7707</a></li>
+        </ul>
+    </aside>
+    <footer class="site-footer">
+        <p class="site-footer-text">&copy; Landing page ini dibuat pada tanggal <time datetime="2026-08-23">23 Agustus 2026</time></p>
+    </footer>
+</body>
+</html>
